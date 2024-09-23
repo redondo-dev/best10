@@ -29,7 +29,7 @@ export default function handler(req, res) {
         nationalTeam: 'Algérie',
         matches: 100,
         goals: 28,
-        flag: 'https://upload.wikimedia.org/wikipedia/commons/7/65/Flag_of_Algeria.svg',
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
         photo: 'https://media.gettyimages.com/id/79653119/fr/photo/1986-world-cup-finals-guadalajara-mexico-6th-june-brazil-1-v-algeria-0-algerias-lakhdar.jpg?s=1024x1024&w=gi&k=20&c=qTtNqPhNSIaJ1Wi9uwMbhyyYIVi0cYWwxnu7PQ-6ggo=',
       },
       {
@@ -101,7 +101,7 @@ export default function handler(req, res) {
         nationalTeam: 'Danemark',
         matches: 104,
         goals: 37,
-        flag: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Denmark.svg',
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg',
         photo: 'https://media.gettyimages.com/id/52942620/fr/photo/united-kingdom-euro-1996-den-1-sheffield-michael-laudrup-den.jpg?s=612x612&w=gi&k=20&c=HgUcFHPqf5ljXFBydx_YS9_4yhAFw6cM7pE5VPZXu9g=',
       },
       {
@@ -141,7 +141,7 @@ export default function handler(req, res) {
         nationalTeam: 'Roumanie',
         matches: 124,
         goals: 35,
-        flag: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Flag_of_Romania.svg', 
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg', 
         photo: 'https://media.gettyimages.com/id/2006177658/fr/photo/newcastle-england-gheorghe-hagi-of-romania-running-during-the-uefa-euro-1996-group-b-match.jpg?s=1024x1024&w=gi&k=20&c=NatvimBgIghmyNH7G1L2dZv23uxzHs7ThkZhs9ASdiI=',
 
 
@@ -183,6 +183,8 @@ export default function handler(req, res) {
                   lastName: 'Dhiab',
                   birthDate: '1954-01-15',
                   nationalTeam: 'Tunisie',
+                  flag:'https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg',
+                  photo:''
                  
               
               },
@@ -194,7 +196,7 @@ export default function handler(req, res) {
                   nationalTeam: 'URSS / Ukraine',
                   matches: 68,
                    goals: 29,
-                  flag: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_the_Soviet_Union.svg',
+                  flag: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg',
                   photo: 'https://media.gettyimages.com/id/79653543/fr/photo/1990-world-cup-finals-bari-italy-9th-june-romania-2-v-ussr-0-ussrs-oleg-protasov.jpg?s=612x612&w=gi&k=20&c=_E3cxBEUjDlm8tT_po5UEQnber2FF98XPfuDx--Hl_w=',
               },
            
@@ -247,7 +249,7 @@ export default function handler(req, res) {
                   nationalTeam: 'Algérie',
                   matches: 100, 
                   goals: 22, 
-                  flag: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Flag_of_Algeria.svg',
+                  flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
                   jersey: 'https://example.com/algeria-shirt.png',
                   photo: 'https://media.gettyimages.com/id/1228299642/fr/photo/mustapha-dahleb-of-algeria-during-the-world-cup-match-between-algeria-and-austria-at-estadio.jpg?s=2048x2048&w=gi&k=20&c=qOfj7RYmdII_1iKcaBDHpj4h9bWIm0SUZuwoRyq23LE=',
               },
@@ -258,7 +260,7 @@ export default function handler(req, res) {
                   nationalTeam: 'Maroc',
                   matches: 37, 
                   goals: 10, 
-                  flag: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Flag_of_Morocco.svg',
+                  flag: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg',
                   jersey: 'https://example.com/morocco-shirt.png',
                   photo: 'https://media.gettyimages.com/id/518161998/fr/photo/zinedine-benbarek-of-morocco.jpg?s=2048x2048&w=gi&k=20&c=2GszG2-nIjfW7_9KnsvtbA8F_gDgTEZsdDQ3GRFDbEc=',
               },
@@ -307,10 +309,10 @@ export default function handler(req, res) {
                 firstName: 'Oleg',
                 lastName: 'blokhine  ',
                 birthDate: '1952-11-05',
-                nationalTeam: 'Kiev',
+                nationalTeam: 'URSS/Ukraine',
                 matches: 112, 
                 goals: 42, 
-                flag: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg',
                 photo: 'https://media.gettyimages.com/id/79651720/fr/photo/2nd-june-1984-friendly-international-wembley-england-0-v-russia-2-russias-oleg-blokhin.jpg?s=2048x2048&w=gi&k=20&c=0fl3JJGYXj61BX7VtbZsZGi7aMo-lFeNHSg-2wZDm0c='
               },
                 
@@ -322,8 +324,7 @@ export default function handler(req, res) {
                   nationalTeam: 'Belgique',
                   matches: 64, // Nombre de matchs
                   goals: 14, // Nombre de buts
-                  flag: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_Belgium.svg',
-                
+                  flag: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg',
                   photo: 'https://media.gettyimages.com/id/735860205/fr/photo/belgian-footballer-and-captain-of-the-national-team-enzo-scifo-pictured-in-action-playing-for.jpg?s=1024x1024&w=gi&k=20&c=ZGaa6agcaQ_aXXIQSLvX_WrtMox_OZOYCpgsscgj0i0=',
               },
               {
@@ -342,10 +343,9 @@ export default function handler(req, res) {
                   lastName: 'Bocande',
                   birthDate: '1955-11-25',
                   nationalTeam: 'Senegal',
-                  matches: 32, // Nombre de matchs
-                  goals: 5, // Nombre de buts
-                  flag: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Senegal.svg',
-                  jersey: 'https://example.com/senegal-shirt.png',
+                  matches: 32, 
+                  goals: 5, 
+                  flag:'https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg',
                   photo: 'https://media.gettyimages.com/id/829412022/fr/photo/jules-francois-bocande-of-senegal-during-the-african-cup-nations-match-between-senegal-and.jpg?s=2048x2048&w=gi&k=20&c=pxGvD2Ja_GZ5DvSMqFTf0fyyZTTAQNfk1RH1zgq5zJA=',
               },
              
@@ -366,7 +366,7 @@ export default function handler(req, res) {
                 nationalTeam: 'République Tchèque',
                 matches: 105, 
                 goals: 23, 
-                flag: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_the_Czech_Republic.svg',
+                flag:'https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg',
                 photo: 'https://media.gettyimages.com/id/541012628/fr/photo/tomas-rosicky-of-czech-republic-during-the-uefa-euro-2016-group-d-match-between-czech-republic.jpg?s=1024x1024&w=gi&k=20&c=tTy2tlGbq2YkbaZ39GKwWKSYdEDWkuaCukRBD4XNudk=',
             },
             {
@@ -376,6 +376,7 @@ export default function handler(req, res) {
                 nationalTeam: 'Republique tchéque',
                 matches: 70, 
                 goals: 15, 
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg',
                 photo: 'https://media.gettyimages.com/id/1227172182/fr/photo/tom%C3%A1%C5%A1-skuhrav%C3%BD-of-genoa-poses-for-photo-during-the-serie-a-1990-91-italy.jpg?s=2048x2048&w=gi&k=20&c=C-AD3BLJtp5pl-RZzk7fs2eY-tYqI9OqYSRmeh-heUM=',
             } 
               
