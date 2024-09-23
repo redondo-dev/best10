@@ -373,10 +373,9 @@ export default function handler(req, res) {
                 firstName: 'tomas',
                 lastName: 'Shkuravy',
                 birthDate: '1963-10-18',
-                nationalTeam: 'URSS',
+                nationalTeam: 'Republique tchéque',
                 matches: 70, 
                 goals: 15, 
-              
                 photo: 'https://media.gettyimages.com/id/1227172182/fr/photo/tom%C3%A1%C5%A1-skuhrav%C3%BD-of-genoa-poses-for-photo-during-the-serie-a-1990-91-italy.jpg?s=2048x2048&w=gi&k=20&c=C-AD3BLJtp5pl-RZzk7fs2eY-tYqI9OqYSRmeh-heUM=',
             } 
               
