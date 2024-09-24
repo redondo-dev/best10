@@ -18,7 +18,7 @@ export default function handler(req, res) {
         birthDate: '1960-10-30',
         nationalTeam: 'Argentine',
         matches: 91,
-        goals: 8,
+        goals: 34,
         flag: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg',
         photo: 'https://media.gettyimages.com/id/1363115696/fr/photo/mexico-city-mexico-argentina-captain-diego-maradona-holds-aloft-the-trophy-after-the-fifa.jpg?s=2048x2048&w=gi&k=20&c=3JHsqKcIosEE9-pItYjH6IwCu6v4cHQNsWtXAbWVjY8=',
       },
