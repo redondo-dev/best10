@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
 import { FaHome, FaFutbol } from 'react-icons/fa';
+import { TbPlayFootball } from "react-icons/tb";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,39 +23,43 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={``}>
-
+      <body className={"w-full text-xl flex flex-col items-center p-4"}>
         <nav
-         style= {{
-          width:"100%",
-          background:'teal',
-          fonteSize:"50px",
-          display:'flex',
-          justifyContent:'space-around',
-          justifyItems:'center',
-         
-       
-
-         }}>
-<Link href="/" className="nav-button">
-            <FaHome style={{ marginRight: '8px' }} /> {/* Icône de maison */}
+          style={{
+            width: "100%",
+            background: 'teal',
+            fontSize: "20px",
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            gap: '15px',
+            padding: '10px',
+          }}>
+          <Link href="/" className="nav-button">
+            <FaHome style={{ marginRight: '8px' }} />
             Home
           </Link>
           <Link href="/players" className="nav-button">
-            <FaFutbol style={{ marginRight: '8px' }} /> {/* Icône de foot */}
+            <FaFutbol style={{ marginRight: '8px' }} />
             Meilleurs 10
           </Link>
-          <Link href="/avantcentres" className="nav-button">Meilleurs 9</Link>
-          <Link href="/gardiens" className="nav-button">Meilleurs Gardiens</Link>
+          <Link href="/avantcentres" className="nav-button">
+            <TbPlayFootball  style={{ marginRight: '8px', fontSize:'26px' }} />
+            Meilleurs 9
+          </Link>
+          <Link href="/gardiens" className="nav-button">
+          
+            Meilleurs Gardiens
+          </Link>
           <Link href="/huit" className="nav-button">Meilleurs 8</Link>
           <Link href="/aillierDroit" className="nav-button">Meilleurs 7</Link>
+          <Link href="/liberos" className="nav-button">Meilleurs Libero</Link>
           <Link href="/arriereGauche" className="nav-button">Meilleurs 3</Link>
           <Link href="/arriereDroit" className="nav-button">Meilleurs 2</Link>
         </nav>
-      
+
         {children}
 
-      
       </body>
     </html>
   );

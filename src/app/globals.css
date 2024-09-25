@@ -79,6 +79,11 @@ h1{
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s; 
   font-weight: bold;
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 8px;
+  
 }
 
 .nav-button:hover {

@@ -13,7 +13,8 @@ const nextConfig = {
        'ekladata.com',
        'pbs.twimg.com',
        'i.pinimg.com',
-       'i.ebayimg.com'
+       'i.ebayimg.com',
+       'fff.twic.pics'
       ], 
     },
 };

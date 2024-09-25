@@ -51,6 +51,16 @@ const players = [
       photo: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Peter_Schmeichel_2018.jpg',
     },
     {
+      firstName: 'Angelo',
+      lastName: 'Peruzzi',
+      birthDate: '1970-02-16',
+      nationalTeam: 'Italie',
+      matches: 31,
+      goals: 0,
+      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
+      photo: '',
+    },
+    {
       firstName: 'Edwin',
       lastName: 'van der Sar',
       birthDate: '1970-10-29',
@@ -120,6 +130,49 @@ const players = [
       flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
       photo: '',
     },
+ 
+      {
+        firstName: 'Badou',
+        lastName: 'Zaki',
+        birthDate: '1959-04-02',
+        nationalTeam: 'Maroc',
+        matches: 124,
+        goals: 0,
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Flag_of_Morocco.svg',
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Badou_Zaki.jpg',
+      },
+      {
+        firstName: 'Ngalula',
+        lastName: 'Nkono',
+        birthDate: '1956-11-25',
+        nationalTeam: 'Cameroun',
+        matches: 94,
+        goals: 0,
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Flag_of_Cameroon.svg',
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Nkono.JPG',
+      },
+      {
+        firstName: 'Antoine',
+        lastName: 'Bell',
+        birthDate: '1964-11-15',
+        nationalTeam: 'Cameroun',
+        matches: 25,
+        goals: 0,
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Flag_of_Cameroon.svg',
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Antoine_Bell.JPG',
+      },
+      {
+        firstName: 'Essam',
+        lastName: 'El-Hadary',
+        birthDate: '1973-01-15',
+        nationalTeam: 'Égypte',
+        matches: 159,
+        goals: 0,
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg',
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Essam_El-Hadary.jpg',
+      },
+    
+    
     {
       firstName: 'Sebastiano',
       lastName: 'Rossi',
@@ -160,16 +213,11 @@ const players = [
       flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
       photo: '',
     },
-    {
-      firstName: 'Angelo',
-      lastName: 'Peruzzi',
-      birthDate: '1970-02-16',
-      nationalTeam: 'Italie',
-      matches: 31,
-      goals: 0,
-      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-      photo: '',
-    },
-  ];
+    
+ 
+    
+    ];
+    
+ 
   res.status(200).json(players);
 }

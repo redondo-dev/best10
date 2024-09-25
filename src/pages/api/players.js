@@ -169,7 +169,7 @@ export default function handler(req, res) {
       {
         firstName: 'Aissa',
         lastName: 'Draoui',
-        birthDate: '1935-07-06', // Date fictive, remplace par la vraie
+        birthDate: '1935-07-06', 
         nationalTeam: 'Algérie',
         matches: '', 
         goals: '', 
@@ -214,8 +214,8 @@ export default function handler(req, res) {
         lastName: 'Totti',
         birthDate: '1976-09-27',
         nationalTeam: 'Italie',
-        matches: 58, // Nombre de matchs
-        goals: 9, // Nombre de buts
+        matches: 58, 
+        goals: 9, 
         flag: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg',
         photo: 'https://media.gettyimages.com/id/71298989/fr/photo/kaiserslautern-germany-francesco-totti-of-italy-celebrates-after-scoring-the-match-winning.jpg?s=612x612&w=0&k=20&c=hSIdwKRRGsB8x2IrNDJJ_kxd-9DIrPz7wAGNFRFy7RI=',
        
@@ -242,7 +242,6 @@ export default function handler(req, res) {
                 matches: 111,
                 goals: 11,
                 flag: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg', 
-                // jersey: 'https://example.com/colombia-shirt.png',
                 photo: 'https://media.gettyimages.com/id/542261300/fr/photo/carlos-valderama-during-the-national-anthem-before-a-round-of-16-match-of-the-1990-fifa-world.jpg?s=2048x2048&w=gi&k=20&c=Z6HCJaYnpdU-9RFl-AQVGtjz8gNJE59jk7lVUmy_SEo=',
             },
             {
@@ -332,7 +331,7 @@ export default function handler(req, res) {
                 },
           
               {
-                  firstName: 'Zinedine',
+                  firstName: 'Larbi',
                   lastName: 'Benbarek',
                   birthDate: '1927-03-05',
                   nationalTeam: 'Maroc',
@@ -340,7 +339,7 @@ export default function handler(req, res) {
                   goals: 10, 
                   flag: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg',
                   jersey: 'https://example.com/morocco-shirt.png',
-                  photo: 'https://media.gettyimages.com/id/518161998/fr/photo/zinedine-benbarek-of-morocco.jpg?s=2048x2048&w=gi&k=20&c=2GszG2-nIjfW7_9KnsvtbA8F_gDgTEZsdDQ3GRFDbEc=',
+                  photo: 'https://fff.twic.pics/https://media.fff.fr/uploads/images/4485640d589bf98c17852da759e2334e.png?twic=v1/focus=558x650/cover=380x296',
               },
               {
                   firstName: 'Alfredo',
@@ -455,8 +454,20 @@ export default function handler(req, res) {
                 goals: 15, 
                 flag: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg',
                 photo: 'https://media.gettyimages.com/id/1227172182/fr/photo/tom%C3%A1%C5%A1-skuhrav%C3%BD-of-genoa-poses-for-photo-during-the-serie-a-1990-91-italy.jpg?s=2048x2048&w=gi&k=20&c=C-AD3BLJtp5pl-RZzk7fs2eY-tYqI9OqYSRmeh-heUM=',
-            } 
-              
+            } ,
+
+              {
+  firstName: 'Luka',
+  lastName: 'Modrić',
+  birthDate: '1985-09-09',
+  nationalTeam: 'Croatie',
+  matches: 150, 
+  goals: 23, 
+  flag: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg',
+ 
+  photo: 'https://media.gettyimages.com/id/1443845722/fr/photo/al-khor-qatar-luka-modric-of-croatia-applauds-fans-after-the-scoreless-draw-in-the-fifa-world.jpg?s=612x612&w=0&k=20&c=E-B2V7pfkz3bhXtCIPnIBG_VfAkWjIpLNKgFfvMxJ7s='
+}
+
                 
     ];
     res.status(200).json(players);
