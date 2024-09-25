@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
-
+import Link from "next/link";
+import { FaHome, FaFutbol } from 'react-icons/fa';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -21,12 +22,39 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={``}>
+
+        <nav
+         style= {{
+          width:"100%",
+          background:'teal',
+          fonteSize:"50px",
+          display:'flex',
+          justifyContent:'space-around',
+          justifyItems:'center',
+         
+       
+
+         }}>
+<Link href="/" className="nav-button">
+            <FaHome style={{ marginRight: '8px' }} /> {/* Icône de maison */}
+            Home
+          </Link>
+          <Link href="/players" className="nav-button">
+            <FaFutbol style={{ marginRight: '8px' }} /> {/* Icône de foot */}
+            Meilleurs 10
+          </Link>
+          <Link href="/avantcentres" className="nav-button">Meilleurs 9</Link>
+          <Link href="/gardiens" className="nav-button">Meilleurs Gardiens</Link>
+          <Link href="/huit" className="nav-button">Meilleurs 8</Link>
+          <Link href="/aillierDroit" className="nav-button">Meilleurs 7</Link>
+          <Link href="/arriereGauche" className="nav-button">Meilleurs 3</Link>
+          <Link href="/arriereDroit" className="nav-button">Meilleurs 2</Link>
+        </nav>
+      
         {children}
 
-       
+      
       </body>
     </html>
   );

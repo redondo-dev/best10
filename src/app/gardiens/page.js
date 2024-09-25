@@ -1,9 +1,9 @@
- "use client";
+"use client";
 
 import Image from 'next/image';
 import React from 'react'
 import { useEffect, useState } from 'react';
-import PlayerCard from './playerCard'; 
+import PlayerCard from '../components/playerCard'; 
 
 
 const Players = () => {
@@ -14,7 +14,7 @@ const Players = () => {
   useEffect(() => {
     const fetchPlayers = async () => {
       try {
-        const response = await fetch('/api/players');
+        const response = await fetch('/api/gardiens');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -36,7 +36,7 @@ const Players = () => {
 
   return (
     <div>
-      <h1>Liste des joueurs avec le numéro 10</h1>
+      <h1>Liste des meilleurs gardienS de l/histoire </h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {players.map((player, index) => (
           <PlayerCard key={player.firstName} player={player} />
@@ -50,4 +50,3 @@ const Players = () => {
 };
 
 export default Players;
-

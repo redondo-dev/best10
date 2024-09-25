@@ -39,3 +39,61 @@ h1{
   height: auto;
   border-bottom: 2px solid #f0f0f0;
 }
+.introduction {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Arial', sans-serif; /* ou une autre police de ton choix */
+  color: #333;
+  line-height: 1.6;
+}
+
+.introduction h1 {
+  font-size: 2rem;
+  color: #007bff; /* une teinte de bleu pour le titre */
+  margin-bottom: 15px;
+  text-align: center;
+}
+.introduction p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.introduction a {
+  color: #007bff; /* couleur des liens */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.introduction a:hover {
+  text-decoration: underline; /* effet sur les liens au survol */
+}
+
+.nav-button {
+  background-color: white; 
+  color: rgb(10, 10, 10); 
+  padding: 10px 20px; 
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; 
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background-color: teal; 
+  color: white; 
+}
+
+
+@media (max-width: 600px) {
+  .introduction {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .introduction h1 {
+    font-size: 1.5rem;
+  }
+}

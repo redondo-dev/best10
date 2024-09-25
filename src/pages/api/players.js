@@ -134,6 +134,94 @@ export default function handler(req, res) {
         flag: 'https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg',
         photo: 'https://media.gettyimages.com/id/52928229/fr/photo/france-wm-france-98-finale-paris-brasilien-3-frankreich-fussballweltmeister-1998-zinedine.jpg?s=612x612&w=0&k=20&c=IM3e5rMb-NiAyQzI9tn8rm4ko-h6tz2SU2-XnpEMYZQ=',
       },
+
+
+      {
+        firstName: 'Rivaldo',
+        lastName: 'Vítor Borba Ferreira',
+        birthDate: '1972-04-19',
+        nationalTeam: 'Brésil',
+        matches: 74,
+        goals: 35,
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg',
+        photo: 'https://media.gettyimages.com/id/2618211/fr/photo/leicester-rivaldo-of-brazil-running-with-the-ball-during-the-international-friendly-match.jpg?s=612x612&w=0&k=20&c=zObPQt4JtI1HXYHB5DD9Uyq3-mUCfjSFn9RiHrh_te8=',
+      },
+      {
+        firstName: 'Zico',
+        lastName: '(Arthur Antunes Coimbra)',
+        birthDate: '1953-03-03',
+        nationalTeam: 'Brésil',
+        matches: 71,
+        goals: 48,
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg',
+        photo: 'https://media.gettyimages.com/id/79043364/fr/photo/1982-world-cup-finals-seville-spain-23rd-june-brazil-4-v-new-zealand-0-brazils-zico-celebrates.jpg?s=2048x2048&w=gi&k=20&c=qroIm-0eFnvDMz2dyvyUznXYYVNBjyPNt-FFAIGbBgY=',
+      },
+      {
+        firstName: 'Jorge',
+        lastName: 'González (Mágico González)',
+        birthDate: '1958-03-13',
+        nationalTeam: 'El Salvador',
+        matches: 62,
+        goals: 21,
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_El_Salvador.svg',
+        photo: 'https://lh3.googleusercontent.com/proxy/28W1WQ1diHXfccqdZxKaKlvSiK_-_UoTunVyM6WLRE8pb4-oWAcFImUBpuxdOm3_PqTjuSdY0-ubapFfazk1y1nI6D_x57-_R_ivg5WqZvZYTzaLIXqA2i693GDWxrjJadtWgMsnzqnXZjRO',
+      },
+      {
+        firstName: 'Aissa',
+        lastName: 'Draoui',
+        birthDate: '1935-07-06', // Date fictive, remplace par la vraie
+        nationalTeam: 'Algérie',
+        matches: '', 
+        goals: '', 
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
+        photo: 'https://ekladata.com/-e_KdFIk3b7MQfh46KXxSS2iiX0.jpg', 
+      },
+   
+      {
+        firstName: 'Rachid',
+        lastName: 'Mekhloufi',
+        birthDate: '1936-01-01', 
+        nationalTeam: 'Algérie',
+        matches:'' , 
+        goals:'' , 
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
+        photo: 'https://pbs.twimg.com/media/GUw6HG3WIAA34eg.jpg:large', 
+      },
+      {
+        firstName: 'Hassen',
+        lastName: 'Lalmas',
+        birthDate: '1943-03-12',
+        nationalTeam: 'Algérie',
+        matches: 43, // Nombre de matchs
+        goals: 12, // Nombre de buts
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Flag_of_Algeria.svg',
+        photo: 'https://i.pinimg.com/736x/8b/ce/53/8bce53c08baa431e4d288f16ccc9efa8.jpg', // Ajoutez l'URL correcte
+     
+    },
+    {
+      firstName: 'Mustapha',
+      lastName: 'Dahleb',
+      birthDate: '1958-01-10',
+      nationalTeam: 'Algérie',
+      matches: 20, 
+      goals: 6, 
+      flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
+      jersey: 'https://example.com/algeria-shirt.png',
+      photo: 'https://media.gettyimages.com/id/1228299642/fr/photo/mustapha-dahleb-of-algeria-during-the-world-cup-match-between-algeria-and-austria-at-estadio.jpg?s=2048x2048&w=gi&k=20&c=qOfj7RYmdII_1iKcaBDHpj4h9bWIm0SUZuwoRyq23LE=',
+  },
+    {
+        firstName: 'Francesco',
+        lastName: 'Totti',
+        birthDate: '1976-09-27',
+        nationalTeam: 'Italie',
+        matches: 58, // Nombre de matchs
+        goals: 9, // Nombre de buts
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg',
+        photo: 'https://media.gettyimages.com/id/71298989/fr/photo/kaiserslautern-germany-francesco-totti-of-italy-celebrates-after-scoring-the-match-winning.jpg?s=612x612&w=0&k=20&c=hSIdwKRRGsB8x2IrNDJJ_kxd-9DIrPz7wAGNFRFy7RI=',
+       
+    },
+    
+      
       {
         firstName: 'Gheorghe',
         lastName: 'Hagi',
@@ -242,17 +330,7 @@ export default function handler(req, res) {
                   flag: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg',
                   photo: 'https://media.gettyimages.com/id/79653021/fr/photo/1986-world-cup-finals-monterrey-mexico-6th-june-england-0-v-morocco-0-moroccos-mohamed-timoumi.jpg?s=1024x1024&w=gi&k=20&c=3jFhf8XhatryOQ8kTzPLfLRnqrtnFzbpE75B_Kma_zI=',
                 },
-                {
-                  firstName: 'Mustapha',
-                  lastName: 'Dahleb',
-                  birthDate: '1958-01-10',
-                  nationalTeam: 'Algérie',
-                  matches: 20, 
-                  goals: 6, 
-                  flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
-                  jersey: 'https://example.com/algeria-shirt.png',
-                  photo: 'https://media.gettyimages.com/id/1228299642/fr/photo/mustapha-dahleb-of-algeria-during-the-world-cup-match-between-algeria-and-austria-at-estadio.jpg?s=2048x2048&w=gi&k=20&c=qOfj7RYmdII_1iKcaBDHpj4h9bWIm0SUZuwoRyq23LE=',
-              },
+          
               {
                   firstName: 'Zinedine',
                   lastName: 'Benbarek',
@@ -297,18 +375,17 @@ export default function handler(req, res) {
               {
                   firstName: 'Rui costa',
                   lastName: 'Manuel ',
-                  birthDate: '1972-04-29',
+                  birthDate: '29-04-1972',
                   nationalTeam: 'Portugal',
-                  matches: 94, // Nombre de matchs
-                  goals: 26, // Nombre de buts
+                  matches: 94, 
+                  goals: 26, 
                   flag: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg',
-                  jersey: 'https://example.com/portugal-shirt.png',
-                  photo: 'https://media.gettyimages.com/id/3019576/fr/photo/faro-rui-costa-of-portugal-runs-with-the-ball-during-the-international-friendly-match-between.jpg?s=612x612&w=gi&k=20&c=aOhvnl47uJNNQBNWHMAXVS1ZC9nP_HnoV06CF6TKdEM=',
+                  photo: 'https://media.gettyimages.com/id/1093838858/fr/photo/eindhoven-netherlands-rui-costa-of-portugal-in-action-during-the-uefa-euro-2000-group-a-match.jpg?s=2048x2048&w=gi&k=20&c=F6S70a189QSmxAyWEjbuR5yIhZ_wMEFYQ37-sU-PhYY=',
               },
               {
                 firstName: 'Oleg',
                 lastName: 'blokhine  ',
-                birthDate: '1952-11-05',
+                birthDate: '05-11-1952',
                 nationalTeam: 'URSS/Ukraine',
                 matches: 112, 
                 goals: 42, 
