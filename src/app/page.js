@@ -20,7 +20,7 @@ export default function Home() {
   Je suis conscient que ce choix peut contenir des erreurs et des oublis. Le football est un domaine vaste et subjectif, et chaque passionné a ses propres héros. Je m&apos;engage à mettre à jour régulièrement cette liste afin de refléter au mieux l&apos;évolution de ce magnifique sport.
 
   Merci de partager cette aventure avec moi et n&apos;hésitez pas à plonger dans l&apos;univers fascinant des légendes du football !
-  &quot;Riad Reda Fethi&quot;
+  &quot;Riad Redondo&quot;
 </p>
 
 
