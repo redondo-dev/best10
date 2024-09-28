@@ -86,7 +86,7 @@ photo:'https://media.gettyimages.com/id/52844942/fr/photo/kobe-japan-wm-2002-in-
     "nationalTeam": "Brésil",
     "matches": 39,
     "goals": 32,
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Flag_of_Brazil.svg",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg",
     "photo": "", 
   },
   {
@@ -96,8 +96,8 @@ photo:'https://media.gettyimages.com/id/52844942/fr/photo/kobe-japan-wm-2002-in-
     "nationalTeam": "Brésil",
     "matches": 19,
     "goals": 7,
-    "photo": "https://example.com/leonidas_photo.jpg",  
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Flag_of_Brazil.svg"  
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Leonidas_dasilva.jpg/200px-Leonidas_dasilva.jpg",  
+    "flag": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg"  
   },
   {
     firstName: 'Gunnar',
@@ -107,7 +107,7 @@ photo:'https://media.gettyimages.com/id/52844942/fr/photo/kobe-japan-wm-2002-in-
     matches: 33, 
     goals: 43, 
     flag: 'https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg',
-    photo: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Gunnar_Nordahl.jpg',
+    photo: 'https://www.leballonrond.fr/img/jogadores/26/760826_med__20210311011542_gunnar_nordahl.jpg',
    
 },
   

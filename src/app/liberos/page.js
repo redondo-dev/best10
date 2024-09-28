@@ -36,7 +36,7 @@ const Players = () => {
 
   return (
     <div>
-      <h1>Liste des meilleurs gardienS de l/histoire </h1>
+      <h1>Liste des meilleurs liberos de l/histoire </h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {players.map((player, index) => (
           <PlayerCard key={player.firstName} player={player} />

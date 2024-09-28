@@ -15,7 +15,8 @@ const nextConfig = {
        'i.pinimg.com',
        'i.ebayimg.com',
        'fff.twic.pics',
-       'elwatan-dz.com'
+       'elwatan-dz.com',
+       'www.leballonrond.fr'
       ], 
     },
 };
