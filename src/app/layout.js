@@ -4,16 +4,16 @@ import Link from "next/link";
 import { FaHome, FaFutbol } from 'react-icons/fa';
 import { TbPlayFootball } from "react-icons/tb";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 export const metadata = {
   title: "best10",
@@ -24,17 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={"w-full text-xl flex flex-col items-center p-4"}>
-        <nav
-          style={{
-            width: "100%",
-            background: 'teal',
-            fontSize: "20px",
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'center',
-            gap: '15px',
-            padding: '10px',
-          }}>
+        <nav className="nav">
           <Link href="/" className="nav-button">
             <FaHome style={{ marginRight: '8px' }} />
             Home

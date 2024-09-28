@@ -9,6 +9,10 @@
 
 body{
   background: #595353;
+  background-image: url('https://cdn.pixabay.com/photo/2016/12/30/10/58/san-siro-1940307_1280.jpg');
+  background-repeat:no-repeat ;
+  background-position:center ;
+  background-size:cover ;
 }
 h1{
   color: rgb(247, 241, 242);
@@ -45,7 +49,7 @@ h1{
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 20px;
-  font-family: 'Arial', sans-serif; /* ou une autre police de ton choix */
+  font-family: 'Arial', sans-serif;
   color: #333;
   line-height: 1.6;
 }
@@ -68,11 +72,20 @@ h1{
 }
 
 .introduction a:hover {
-  text-decoration: underline; /* effet sur les liens au survol */
+  text-decoration: underline; 
 }
-
+.nav{
+  width: 20%;
+  background-color: rgb(10, 11, 11);
+  font-size: 15px;
+  justify-items: center; 
+  align-items: center; 
+  gap: 10px; 
+  padding: 10px;
+ 
+}
 .nav-button {
-  background-color: white; 
+  background-color: rgb(231, 71, 98);; 
   color: rgb(10, 10, 10); 
   padding: 10px 20px; 
   border-radius: 5px;
@@ -82,7 +95,8 @@ h1{
   display:flex;
   justify-content: center;
   justify-items: center;
-  gap: 8px;
+  margin:10px;
+ 
   
 }
 
@@ -91,8 +105,9 @@ h1{
   color: white; 
 }
 
+@media (max-width: 768px) { 
+  
 
-@media (max-width: 600px) {
   .introduction {
     padding: 15px;
     margin: 10px;
@@ -101,4 +116,18 @@ h1{
   .introduction h1 {
     font-size: 1.5rem;
   }
+  .nav{
+    width:70%;
+  }
+
+}
+  @media (max-width: 480px) { 
+  .nav{
+    width: 70%;
+  }
+ 
+    .nav-button {
+    padding: 3px 6px; 
+    font-size: 12px; 
+}
 }
