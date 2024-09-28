@@ -466,8 +466,18 @@ export default function handler(req, res) {
   flag: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg',
  
   photo: 'https://media.gettyimages.com/id/1443845722/fr/photo/al-khor-qatar-luka-modric-of-croatia-applauds-fans-after-the-scoreless-draw-in-the-fifa-world.jpg?s=612x612&w=0&k=20&c=E-B2V7pfkz3bhXtCIPnIBG_VfAkWjIpLNKgFfvMxJ7s='
-}
-
+},
+{
+  firstName: 'Nils',
+  lastName: 'Liedholm',
+  birthDate: '1922-10-08',
+  nationalTeam: 'Suède',
+  matches: 23, 
+  goals: 11, 
+  flag: 'https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg',
+  photo: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Nils_Liedholm.jpg',
+  
+},
                 
     ];
     res.status(200).json(players);

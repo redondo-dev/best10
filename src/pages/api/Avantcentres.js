@@ -98,8 +98,18 @@ photo:'https://media.gettyimages.com/id/52844942/fr/photo/kobe-japan-wm-2002-in-
     "goals": 7,
     "photo": "https://example.com/leonidas_photo.jpg",  
     "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Flag_of_Brazil.svg"  
-  }
-  
+  },
+  {
+    firstName: 'Gunnar',
+    lastName: 'Nordahl',
+    birthDate: '1921-10-19',
+    nationalTeam: 'Suède',
+    matches: 33, 
+    goals: 43, 
+    flag: 'https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg',
+    photo: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Gunnar_Nordahl.jpg',
+   
+},
   
     ]
     res.status(200).json(avantcentres);
