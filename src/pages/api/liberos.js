@@ -10,7 +10,7 @@
                 matches: 103,
                 goals: 14,
                 flag: 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
-                photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Franz_Beckenbauer_-_2014_%28cropped%29.jpg/440px-Franz_Beckenbauer_-_2014_%28cropped%29.jpg',
+                photo:'https://media.gettyimages.com/id/550982127/fr/photo/football-european-championship-qualifying-group-8-return-leg-westfalen-stadium-dortmund.jpg?s=2048x2048&w=gi&k=20&c=43ixD46T4Ac0hH_1QAamUPBSl78VElNDM9fQHP_4b14='
               },
               {
                 firstName: 'Gaetano',
@@ -20,7 +20,7 @@
                 matches: 78,
                 goals: 2,
                 flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-                photo: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Gaetano_Scirea_1981.jpg',
+                photo: 'https://media.gettyimages.com/id/79042460/fr/photo/1982-world-cup-finals-semi-final-barcelona-spain-8th-july-italy-2-v-poland-0-italys-gaetano.jpg?s=2048x2048&w=gi&k=20&c=MzqYa4Ph3noU6HD2jx7QqBRqv47P9T4ge9R1VcCJC-8=',
               },
               {
                 firstName: 'Franco',
@@ -30,7 +30,7 @@
                 matches: 81,
                 goals: 1,
                 flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-                photo: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Franco_Baresi_2012.JPG',
+                photo:'https://media.gettyimages.com/id/612546272/fr/photo/italys-captain-franco-baresi-during-the-final-of-the-1994-fifa-world-cup-against-brazil.jpg?s=2048x2048&w=gi&k=20&c=oUqGbaWWil8x-dklfWNfRY7kce1eKg3boTz0biEX4w0=',
               },
               {
                 firstName: 'Ronald',
@@ -40,7 +40,7 @@
                 matches: 78,
                 goals: 14,
                 flag: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg',
-                photo: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Ronald_Koeman_2014.jpg',
+                photo: 'https://media.gettyimages.com/id/1055853664/fr/photo/dutch-professional-footballer-ronald-koeman-defender-with-fc-barcelona-posed-prior-to-playing.jpg?s=2048x2048&w=gi&k=20&c=F9_VtndnSVAaHR0d1CeRgZSbiNCIWnXvCYqrsLgbxXc=',
               },
               {
                 firstName: 'Bobby',
@@ -50,17 +50,17 @@
                 matches: 108,
                 goals: 2,
                 flag: 'https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_England.svg',
-                photo: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Bobby_Moore_1969.jpg',
+                photo: 'https://media.gettyimages.com/id/80747075/fr/photo/sport-football-1966-world-cup-finals-quarter-final-23rd-july-1966-wembley-stadium-london.jpg?s=2048x2048&w=gi&k=20&c=FtMRfgusUkbu0sGCuBj1vnoyQy9g6dQWeRM9VcBNLLM=',
               },
               {
                 firstName: 'Miloud',
                 lastName: 'Hadefi',
-                birthDate: '1973-01-01', // Remplacez par la date de naissance correcte
+                birthDate: '1973-01-01', 
                 nationalTeam: 'Algérie',
-                matches: 40, // Remplacez par le nombre de matchs correct
-                goals: 5, // Remplacez par le nombre de buts correct
+                matches: 40, 
+                goals: 5, 
                 flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
-                photo: 'https://example.com/photo-of-miloud-hadefi.jpg' // Remplacez par l'URL de l'image correcte
+                photo: 'https://elwatan-dz.com/storage/4002/HEDEFI.gif' 
               }
               
             ];

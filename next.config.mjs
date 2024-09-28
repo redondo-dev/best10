@@ -14,7 +14,8 @@ const nextConfig = {
        'pbs.twimg.com',
        'i.pinimg.com',
        'i.ebayimg.com',
-       'fff.twic.pics'
+       'fff.twic.pics',
+       'elwatan-dz.com'
       ], 
     },
 };
