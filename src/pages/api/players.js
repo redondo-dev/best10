@@ -475,7 +475,7 @@ export default function handler(req, res) {
   matches: 23, 
   goals: 11, 
   flag: 'https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg',
-  photo: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Nils_Liedholm.jpg',
+  photo: 'https://www.shutterstock.com/editorial/image-editorial/M0z8Ebz0M2z5Ef18NjA4NQ==/nils-liedholm-swedens-captain-world-cup-1958-1500w-3113414a.jpg',
   
 },
                 

@@ -16,7 +16,8 @@ const nextConfig = {
        'i.ebayimg.com',
        'fff.twic.pics',
        'elwatan-dz.com',
-       'www.leballonrond.fr'
+       'www.leballonrond.fr',
+       'www.shutterstock.com'
       ], 
     },
 };
