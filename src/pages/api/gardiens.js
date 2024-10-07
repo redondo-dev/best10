@@ -18,8 +18,17 @@ const players = [
       matches: 176,
       goals: 0,
       flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-      photo: '',
+      photo: 'https://media.gettyimages.com/id/109339900/fr/photo/lecce-italy-gigi-buffon-of-juventus-before-the-serie-a-match-between-lecce-and-juventus-fc-at.jpg?s=2048x2048&w=gi&k=20&c=Eqv-djsVZrzFd9TvkFDdY3yS4SIgQadSdqO7csOq9j8=',
     },
+    {
+      firstName: 'Dino',
+      lastName: 'Zoff',
+      birthDate: '1942-02-28',
+      nationalTeam: 'Italie',
+      matches: 112,
+      goals: 0,
+      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
+      photo: 'https://media.gettyimages.com/id/468133770/fr/photo/rome-italy-italy-goalkeeper-dino-zoff-in-action-during-an-international-match-circa-1976-zoff.jpg?s=2048x2048&w=gi&k=20&c=4YR6fvGcei_2M0_FY0B8GvAZmTo_pmgMeLVkjpaUB9E='    },
     
     {
       firstName: 'Iker',
@@ -29,8 +38,39 @@ const players = [
       matches: 167,
       goals: 0,
       flag: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg',
-      photo: '',
+      photo: 'https://media.gettyimages.com/id/102811090/fr/photo/johannesburg-south-africa-iker-casillas-captain-of-spain-celebrates-the-late-goal-by-andres.jpg?s=2048x2048&w=gi&k=20&c=rReBeweYXQKvd0T2Av0Hwe71g_ulmjVKWNlfM56JoBY=',
     },
+    {
+      firstName: 'Sebastiano',
+      lastName: 'Rossi',
+      birthDate: '1964-01-20',
+      nationalTeam: 'Italie',
+      matches: 28,
+      goals: 0,
+      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
+      photo: 'https://media.gettyimages.com/id/78961783/fr/photo/13th-march-1994-italian-league-serie-a-sebastiano-rossi-ac-milan-goalkeeper.jpg?s=1024x1024&w=gi&k=20&c=rCx78Ib4BZF90C9yJwUv3DFS_ivHvIZ1Idj0VOKa7kY=',
+    },
+    {
+      firstName: 'Gianluca',
+      lastName: 'Pagliuca',
+      birthDate: '1966-12-18',
+      nationalTeam: 'Italie',
+      matches: 39,
+      goals: 0,
+      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
+      photo: 'https://media.gettyimages.com/id/644843616/fr/photo/gianluca-pagliuca-italie-irlande-coupe-du-monde-1994-photo-alain-gadoffre-icon-sport.jpg?s=1024x1024&w=gi&k=20&c=EUOnTtzCvUHTPDC11Ob81Fyb4paXQwg4eSJCZqS235c=',
+    },
+    {
+      firstName: 'Francesco',
+      lastName: 'Toldo',
+      birthDate: '1971-12-02',
+      nationalTeam: 'Italie',
+      matches: 28,
+      goals: 0,
+      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
+      photo: 'https://media.gettyimages.com/id/52916662/fr/photo/amsterdam-netherlands-em-euro-2000-halbfinale-amsterdam-italien-niederlande-n-e-3-1-torwart.jpg?s=2048x2048&w=gi&k=20&c=yeQna3djZo9BlODrLd2Vb2I6WjUB7viuOMYqK8gr-zg=',
+    },
+   
     {
       firstName: 'Manuel',
       lastName: 'Neuer',
@@ -39,6 +79,7 @@ const players = [
       matches: 116,
       goals: 0,
       flag: 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
+      photo:'https://media.gettyimages.com/id/1431780081/fr/photo/dortmund-germany-manuel-neuer-of-bayern-m%C3%BCnchen-reacts-during-the-bundesliga-match-between.jpg?s=2048x2048&w=gi&k=20&c=4hpZEYe1a_1FYQPcliaps7qgGfUUAv4BXuwJNRidP4w='
     },
     {
       firstName: 'Peter',
@@ -48,7 +89,7 @@ const players = [
       matches: 129,
       goals: 0,
       flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Denmark.svg',
-      photo: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Peter_Schmeichel_2018.jpg',
+      photo: 'https://media.gettyimages.com/id/1641601/fr/photo/manchester-united-keeper-peter-schmeichel-celebrates-a-goal-in-the-uefa-champions-league-semi.jpg?s=2048x2048&w=gi&k=20&c=ONQLREP434A4Ut-30YZguJYwscB3p5dZWTquFyukJBo=',
     },
     {
       firstName: 'Angelo',
@@ -58,7 +99,7 @@ const players = [
       matches: 31,
       goals: 0,
       flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-      photo: '',
+      photo: 'https://media.gettyimages.com/id/1640094/fr/photo/angelo-peruzzi-of-juventus-in-action-during-the-italian-serie-a-match-against-inter-milan-at-the.jpg?s=2048x2048&w=gi&k=20&c=asX3YcdQkY1zzv_2VaSwtpgzo-Wx3DCLZSnsXBmAeXQ=',
     },
     {
       firstName: 'Edwin',
@@ -68,18 +109,8 @@ const players = [
       matches: 130,
       goals: 0,
       flag: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg',
-      photo: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Edwin_van_der_Sar_%282015%29.jpg',
-    },
-    {
-      firstName: 'Kasper',
-      lastName: 'Schmeichel',
-      birthDate: '1986-11-05',
-      nationalTeam: 'Danemark',
-      matches: 72,
-      goals: 0,
-      flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Denmark.svg',
-      photo: '',
-    },
+      photo : " https://media.gettyimages.com/id/111755864/fr/photo/london-england-edwin-van-der-sar-of-manchester-united-celebrates-as-wayne-rooney-scores-their.jpg?s=2048x2048&w=gi&k=20&c=9zEz5eRXT-EbwLCP7zaO5vBtCIqro8r5uClDutVHrBY="    },
+   
     {
       firstName: 'Alisson',
       lastName: 'Becker',
@@ -98,7 +129,7 @@ const players = [
       matches: 91,
       goals: 0,
       flag: 'https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg',
-      photo: '',
+      photo: 'https://media.gettyimages.com/id/584930930/fr/photo/dortmund-germany-goalkeeper-dida-of-brazil-during-the-fifa-2006-world-cup-round-of-16-match.jpg?s=2048x2048&w=gi&k=20&c=jk_A7XwdAJcF3TP6uTXMlRrCli5NDnmrGwXT4OdwRZ4=',
     },
     {
       firstName: 'Bodo',
@@ -108,7 +139,7 @@ const players = [
       matches: 59,
       goals: 0,
       flag: 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
-      photo: '',
+      photo: 'https://media.gettyimages.com/id/143320534/fr/photo/hamburg-germany-goalkeeper-coach-andreas-koepke-of-germany-poses-during-a-national-team.jpg?s=2048x2048&w=gi&k=20&c=T5tSR98ACOktff2yy7EvcXXPTck4N314_iHXY18d7bY=',
     },
     {
       firstName: 'Nasser',
@@ -173,46 +204,7 @@ const players = [
       },
     
     
-    {
-      firstName: 'Sebastiano',
-      lastName: 'Rossi',
-      birthDate: '1964-01-20',
-      nationalTeam: 'Italie',
-      matches: 28,
-      goals: 0,
-      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-      photo: '',
-    },
-    {
-      firstName: 'Gianluca',
-      lastName: 'Pagliuca',
-      birthDate: '1966-12-18',
-      nationalTeam: 'Italie',
-      matches: 39,
-      goals: 0,
-      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-      photo: '',
-    },
-    {
-      firstName: 'Francesco',
-      lastName: 'Toldo',
-      birthDate: '1971-12-02',
-      nationalTeam: 'Italie',
-      matches: 28,
-      goals: 0,
-      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-      photo: '',
-    },
-    {
-      firstName: 'Dino',
-      lastName: 'Zoff',
-      birthDate: '1942-02-28',
-      nationalTeam: 'Italie',
-      matches: 112,
-      goals: 0,
-      flag: 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-      photo: '',
-    },
+    
     
  
     

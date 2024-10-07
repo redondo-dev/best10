@@ -37,15 +37,12 @@ export default function RootLayout({ children }) {
             <TbPlayFootball  style={{ marginRight: '8px', fontSize:'26px' }} />
             Meilleurs 9
           </Link>
-          <Link href="/gardiens" className="nav-button">
-          
-            Meilleurs Gardiens
-          </Link>
+          <Link href="/gardiens" className="nav-button"> Meilleurs Gardiens</Link>
           <Link href="/huit" className="nav-button">Meilleurs 8</Link>
           <Link href="/aillierDroit" className="nav-button">Meilleurs 7</Link>
           <Link href="/liberos" className="nav-button">Meilleurs Libero</Link>
-          <Link href="/arriereGauche" className="nav-button">Meilleurs 3</Link>
-          <Link href="/arriereDroit" className="nav-button">Meilleurs 2</Link>
+          <Link href="/arrieresgauches" className="nav-button">Meilleurs 3</Link>
+          <Link href="/arrieresdroits" className="nav-button">Meilleurs 2</Link>
         </nav>
 
         {children}
