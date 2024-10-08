@@ -2,7 +2,7 @@
 const nextConfig = {
 
     images: {
-      domains: ['example.com',
+      domains: [
      
         'media.gettyimages.com',
         'images.unsplash.com',
@@ -17,7 +17,12 @@ const nextConfig = {
        'fff.twic.pics',
        'elwatan-dz.com',
        'www.leballonrond.fr',
-       'www.shutterstock.com'
+       'www.shutterstock.com',
+       'fr.wikipedia.org',
+       'tunisie-foot.com',
+       'i0.wp.com'
+       
+
       ], 
     },
 };

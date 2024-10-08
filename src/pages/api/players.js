@@ -194,7 +194,7 @@ export default function handler(req, res) {
         nationalTeam: 'Algérie',
         matches: 43, // Nombre de matchs
         goals: 12, // Nombre de buts
-        flag: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Flag_of_Algeria.svg',
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg',
         photo: 'https://i.pinimg.com/736x/8b/ce/53/8bce53c08baa431e4d288f16ccc9efa8.jpg', // Ajoutez l'URL correcte
      
     },
@@ -271,7 +271,7 @@ export default function handler(req, res) {
                   birthDate: '1954-01-15',
                   nationalTeam: 'Tunisie',
                   flag:'https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg',
-                  photo:''
+                  photo:'https://tunisie-foot.com/wp-content/uploads/2019/06/Dhiab.png'
                  
               
               },
@@ -433,7 +433,7 @@ export default function handler(req, res) {
                 matches: 150, 
                 goals: 23, 
                 flag: 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
-                photo: 'https://media.gettyimages.com/id/1281077/fr/photo/lothar-matthaus-of-germany-on-the-ball-against-northern-ireland-in-the-european-championship.jpg?s=2048x2048&w=gi&k=20&c=rBd1n8wIezPHr_Fvtfo0ULtfaL3pNRehUfVCtIpyhFg=',
+                photo: 'https://i0.wp.com/thesefootballtimes.co/wp-content/uploads/2020/03/matthaus.jpg?fit=1800%2C1300&ssl=1',
             },
             {
                 firstName: 'Tomáš',

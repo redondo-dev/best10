@@ -49,7 +49,7 @@
                 nationalTeam: 'Angleterre',
                 matches: 108,
                 goals: 2,
-                flag: 'https://fr.wikipedia.org/wiki/Drapeau_de_l%27Angleterre#/media/Fichier:Flag_of_England.svg',
+                flag :"https://fr.wikipedia.org/wiki/Angleterre#/media/Fichier:Flag_of_England.svg",
                 photo: 'https://media.gettyimages.com/id/80747075/fr/photo/sport-football-1966-world-cup-finals-quarter-final-23rd-july-1966-wembley-stadium-london.jpg?s=2048x2048&w=gi&k=20&c=FtMRfgusUkbu0sGCuBj1vnoyQy9g6dQWeRM9VcBNLLM=',
               },
               {

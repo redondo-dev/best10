@@ -34,7 +34,7 @@ const Ailliersdroits = () => {
   
     return (
       <div>
-        <h1>Liste des meilleurs arrieres-droits</h1>
+        <h1>Liste des meilleurs ailliers-droits</h1>
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
           {players.map((player, index) => (
             <PlayerCard key={index} player={player} /> 

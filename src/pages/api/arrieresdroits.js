@@ -17,6 +17,7 @@
       "nationalTeam": "Allemagne",
       "matches": 96,
       "goals": 1,
+      "flag": 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
       "photo": "https://media.gettyimages.com/id/1231557095/fr/photo/munich-west-germany-berti-vogts-of-west-germany-in-action-during-the-international-friendly.jpg?s=2048x2048&w=gi&k=20&c=U41jTVz_AamcHP2xnHvs5tdz3twikUCn3dMbOpGeV7w="
     },
     {
@@ -43,6 +44,7 @@
       "nationalTeam": "Allemagne",
       "matches": 113,
       "goals": 5,
+      "flag": 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
       "photo": "https://media.gettyimages.com/id/101582955/fr/photo/frankfurt-am-main-germany-team-captain-philipp-lahm-poses-during-the-official-team-photocall.jpg?s=2048x2048&w=gi&k=20&c=R-5AL6Ic3exLJp7RnUOsNj5MWIPpzAC-1YtOov6cptA="
     },
     {
