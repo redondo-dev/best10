@@ -9,9 +9,10 @@ export default function Home() {
     <div className="min-h-screen p-8 pb-20">
       
       <h1 className="text-center mt-4">home page </h1>
+      <h1>Bienvenue sur mon site dédié à l&apos;histoire des meilleurs joueurs de football !</h1>
     
       <p className='introduction'> 
- <h1>Bienvenue sur mon site dédié à l&apos;histoire des meilleurs joueurs de football !</h1>
+ 
 
   Ce projet, à but non lucratif, est le fruit de ma passion pour le football, une passion que j&apos;entretiens depuis 45 ans. Au fil des années, j&apos;ai eu la chance de suivre les exploits de nombreux joueurs qui ont marqué ce sport, tant par leur talent que par leur détermination.
 

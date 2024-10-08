@@ -2,11 +2,11 @@ export default function handler(req, res) {
     // Liste des joueurs avec le numéro 09
     const arrieresgauches=[  
     {
-      "firstName": "Paolo",
-      "lastName": "Maldini",
-      "birthDate": "1968-06-26",
-      "nationalTeam": "Italie",
-      "matches": 126,
+      firstName: "Paolo",
+      lastName: "Maldini",
+      birthDate: "1968-06-26",
+      nationalTeam: "Italie",
+      matches: 126,
       "goals": 4,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
       "photo": "https://media.gettyimages.com/id/640256403/fr/photo/paolo-maldini-in-action-during-a-quarter-finals-match-of-the-1998-fifa-world-cup-against.jpg?s=2048x2048&w=gi&k=20&c=lcnt93hjVP5Q_8p-73F1cGiLLCwTppDKoAGJH5nf2aQ="
@@ -48,7 +48,6 @@ export default function handler(req, res) {
         "matches": 107,
         "goals": 7,
         "flag": 'https://fr.wikipedia.org/wiki/Drapeau_de_l%27Angleterre#/media/Fichier:Flag_of_England.svg',
-
         "photo": "https://media.gettyimages.com/id/101635856/fr/photo/rustenburg-south-africa-ashley-cole-of-england-poses-during-the-official-fifa-world-cup-2010.jpg?s=2048x2048&w=gi&k=20&c=HuyhbF2a6IUlUJ0K86GBiltRwdMGERCPpqYssA2FffU="
       },
    

@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
           </Link>
           <Link href="/gardiens" className="nav-button"> Meilleurs Gardiens</Link>
           <Link href="/huit" className="nav-button">Meilleurs 8</Link>
-          <Link href="/aillierDroit" className="nav-button">Meilleurs 7</Link>
+          <Link href="/ailliersdroits" className="nav-button">Meilleurs 7</Link>
           <Link href="/liberos" className="nav-button">Meilleurs Libero</Link>
           <Link href="/arrieresgauches" className="nav-button">Meilleurs 3</Link>
           <Link href="/arrieresdroits" className="nav-button">Meilleurs 2</Link>

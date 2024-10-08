@@ -1,5 +1,4 @@
-
- export default function handler (res,req){
+ export default function handler (req,res){
 
 
  const arrieresdroits =[
@@ -9,7 +8,16 @@
       "nationalTeam": "Brésil",
       "matches": 142,
       "goals": 5,
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cafu_2015.jpg"
+      "flag": 'https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg',
+      "photo": "https://media.gettyimages.com/id/1322213454/fr/photo/frankfurt-germany-cafu-of-brazil-in-action-during-the-world-cup-quarter-final-match-between.jpg?s=2048x2048&w=gi&k=20&c=lhd8WCQsqJZoWQwO7U9gJybGCe3IRRzAfZhlfwz7J5w="
+    },
+    {
+      "firstName": "Berti",
+      "lastName": "Vogts",
+      "nationalTeam": "Allemagne",
+      "matches": 96,
+      "goals": 1,
+      "photo": "https://media.gettyimages.com/id/1231557095/fr/photo/munich-west-germany-berti-vogts-of-west-germany-in-action-during-the-international-friendly.jpg?s=2048x2048&w=gi&k=20&c=U41jTVz_AamcHP2xnHvs5tdz3twikUCn3dMbOpGeV7w="
     },
     {
       "firstName": "Lilian",
@@ -17,7 +25,7 @@
       "nationalTeam": "France",
       "matches": 142,
       "goals": 2,
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Lilian_Thuram_2018.jpg"
+      "photo": "https://media.gettyimages.com/id/52924140/fr/photo/france-international-97-98-fra-0-lilian-thuram-frankreich.jpg?s=2048x2048&w=gi&k=20&c=Zy9TPIhqB2d9I49xbs4GJHM95pI5KNxrvxkZxCkjZUw="
     },
     {
       "firstName": "Dani",
@@ -25,7 +33,8 @@
       "nationalTeam": "Brésil",
       "matches": 117,
       "goals": 8,
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/34/Dani_Alves_2018.jpg"
+      "flag": 'https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg',
+      "photo": "https://media.gettyimages.com/id/1339377108/fr/photo/recife-brazil-dani-alves-of-brazil-fixes-his-captains-armband-during-a-match-between-brazil.jpg?s=2048x2048&w=gi&k=20&c=rTwcbTtK3AYcospy8SSLAZFA1s2fqv-u4YDlxoXAH8Y="
     },
   
     {
@@ -34,7 +43,7 @@
       "nationalTeam": "Allemagne",
       "matches": 113,
       "goals": 5,
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/09/Philipp_Lahm_2014.jpg"
+      "photo": "https://media.gettyimages.com/id/101582955/fr/photo/frankfurt-am-main-germany-team-captain-philipp-lahm-poses-during-the-official-team-photocall.jpg?s=2048x2048&w=gi&k=20&c=R-5AL6Ic3exLJp7RnUOsNj5MWIPpzAC-1YtOov6cptA="
     },
     {
       "firstName": "José",
@@ -42,7 +51,7 @@
       "nationalTeam": "Portugal",
       "matches": 50,
       "goals": 0,
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Jos%C3%A9_Bosingwa_2014.jpg"
+      "photo": ""
     },
  
     {
@@ -51,7 +60,7 @@
       "nationalTeam": "Allemagne",
       "matches": 49,
       "goals": 2,
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Antonio_R%C3%BCdiger_2018.jpg"
+      "photo": ""
     },
     {
       "firstName": "Djalma",
@@ -59,6 +68,7 @@
       "nationalTeam": "Brésil",
       "matches": 30,
       "goals": 0,
+      "flag": 'https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg',
       "photo": "https://upload.wikimedia.org/wikipedia/commons/0/07/Djalma_Vitorino_2012.jpg"
     }
  
