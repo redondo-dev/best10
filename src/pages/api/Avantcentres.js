@@ -15,6 +15,17 @@ export default function handler(req, res) {
             photo: 'https://media.gettyimages.com/id/79051349/fr/photo/23rd-june-1988-munich-west-germany-1988-european-championships-final-holland-2-v-ussr-0.jpg?s=2048x2048&w=gi&k=20&c=_UL8e6RKLkh6a0AFAmgl2YAZJcz1ypcxZ7zUPcTAxq4=',
         },
         {
+          firstName: 'Hugo',
+          lastName: 'Sánchez',
+          birthDate: '1958-07-11',
+          nationalTeam: 'Mexique',
+          matches: 58,
+          goals: 29,
+          flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg',
+          photo: 'https://media.gettyimages.com/id/236819/fr/photo/an-animated-hugo-sanchez-of-mexico-during-norways-1-0-victory-over-mexico-in-the-1994-world-cup.jpg?s=2048x2048&w=gi&k=20&c=qL0DetRDrWwTSYN6y3tv8Qeb7dhmeTPH2leuyYnFSkc='
+      },
+      
+        {
             firstName: 'Romário',
             lastName: 'de Souza Faria',
             birthDate: '1966-01-29',
