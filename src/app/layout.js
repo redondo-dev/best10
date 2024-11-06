@@ -1,19 +1,8 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
-import { FaHome, FaFutbol } from 'react-icons/fa';
+import { FaHome, FaFutbol, FaShieldAlt, FaUserAlt } from 'react-icons/fa';
 import { TbPlayFootball } from "react-icons/tb";
-
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
+import { GiSoccerField } from "react-icons/gi";
 
 export const metadata = {
   title: "best10",
@@ -23,30 +12,48 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={"w-full text-xl flex flex-col items-center p-4"}>
+      <body>
         <nav className="nav">
           <Link href="/" className="nav-button">
-            <FaHome style={{ marginRight: '8px' }} />
+            <FaHome size={18} />
             Home
           </Link>
           <Link href="/players" className="nav-button">
-            <FaFutbol style={{ marginRight: '8px' }} />
+            <FaFutbol size={18} />
             Meilleurs 10
           </Link>
           <Link href="/avantcentres" className="nav-button">
-            <TbPlayFootball  style={{ marginRight: '8px', fontSize:'26px' }} />
+            <TbPlayFootball size={20} />
             Meilleurs 9
           </Link>
-          <Link href="/gardiens" className="nav-button"> Meilleurs Gardiens</Link>
-          <Link href="/huit" className="nav-button">Meilleurs 8</Link>
-          <Link href="/ailliersdroits" className="nav-button">Meilleurs 7</Link>
-          <Link href="/liberos" className="nav-button">Meilleurs Libero</Link>
-          <Link href="/arrieresgauches" className="nav-button">Meilleurs 3</Link>
-          <Link href="/arrieresdroits" className="nav-button">Meilleurs 2</Link>
+          <Link href="/gardiens" className="nav-button">
+            <FaShieldAlt size={18} />
+            Meilleurs Gardiens
+          </Link>
+          <Link href="/huit" className="nav-button">
+            <GiSoccerField size={18} />
+            Meilleurs 8
+          </Link>
+          <Link href="/ailliersdroits" className="nav-button">
+            <FaFutbol size={18} />
+            Meilleurs 7
+          </Link>
+          <Link href="/liberos" className="nav-button">
+            <FaShieldAlt size={18} />
+            Meilleurs Libero
+          </Link>
+          <Link href="/arrieresgauches" className="nav-button">
+            <FaUserAlt size={18} />
+            Meilleurs 3
+          </Link>
+          <Link href="/arrieresdroits" className="nav-button">
+            <FaUserAlt size={18} />
+            Meilleurs 2
+          </Link>
         </nav>
-
-        {children}
-
+        <main className="w-full max-w-7xl mx-auto px-4 py-8">
+          {children}
+        </main>
       </body>
     </html>
   );
